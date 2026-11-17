@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Secrets - never commit real keys (the *.example files are safe)
+.env
+.env.*
+!.env.example
+
+# Build output
+.next/
+out/
+dist/
+build/
+.expo/
+web-build/
+*.apk
+*.aab
+*.tsbuildinfo
+expo-env.d.ts
+next-env.d.ts
+
+# Signing keys and Google credentials
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*service-account*.json
+
+# Supabase CLI local files
+supabase/.temp/
+supabase/.branches/
+
+# Editors and operating systems
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+npm-debug.log*
+.vercel
